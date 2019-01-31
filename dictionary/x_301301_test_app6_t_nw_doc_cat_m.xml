@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="添付ファイル分類マスタテーブル" max_length="40" name="x_301301_test_app6_t_nw_doc_cat_m" type="collection">
+        <element label="カテゴリ分類" mandatory="true" max_length="2" name="category_kbn" type="string"/>
+        <element display="true" label="カテゴリ名称" mandatory="true" max_length="128" name="category_name" type="string"/>
+        <element label="ICC参照" mandatory="true" max_length="1" name="icc_ref_flg" type="string"/>
+        <element label="回線単位フラグ" mandatory="true" max_length="1" name="kaisen_unit_flg" type="string"/>
+        <element label="機器単位フラグ" mandatory="true" max_length="1" name="kiki_unit_flg" type="string"/>
+        <element label="拠点単位フラグ" mandatory="true" max_length="1" name="kyoten_unit_flg" type="string"/>
+        <element label="システムID単位フラグ" mandatory="true" max_length="1" name="system_id_unit_flg" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="システムID+サービス単位フラグ" mandatory="true" max_length="1" name="sys_sv_unit_flg" type="string"/>
+        <element label="初動対応時参照" mandatory="true" max_length="1" name="trouble_report_flg" type="string"/>
+        <index name="index">
+            <element name="category_kbn"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

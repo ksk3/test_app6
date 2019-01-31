@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="取込テーブル_添付ファイル分類マスタテーブル" max_length="40" name="x_301301_test_app6_import_t_nw_doc_cat_m_csv" type="collection">
+        <element attributes="import_attribute_name=CATEGORY_NAME,edge_encryption_enabled=true" label="CATEGORY_NAME" max_length="40" name="u_category_name" type="string"/>
+        <element attributes="import_attribute_name=DEL_FLG,edge_encryption_enabled=true" label="DEL_FLG" max_length="40" name="u_del_flg" type="string"/>
+        <element attributes="import_attribute_name=ICC_REF_FLG,edge_encryption_enabled=true" label="ICC_REF_FLG" max_length="40" name="u_icc_ref_flg" type="string"/>
+        <element attributes="import_attribute_name=KAISEN_UNIT_FLG,edge_encryption_enabled=true" label="KAISEN_UNIT_FLG" max_length="40" name="u_kaisen_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=KIKI_UNIT_FLG,edge_encryption_enabled=true" label="KIKI_UNIT_FLG" max_length="40" name="u_kiki_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=KYOTEN_UNIT_FLG,edge_encryption_enabled=true" label="KYOTEN_UNIT_FLG" max_length="40" name="u_kyoten_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=LAST_UPDATE_DAY,edge_encryption_enabled=true" label="LAST_UPDATE_DAY" max_length="40" name="u_last_update_day" type="string"/>
+        <element attributes="import_attribute_name=SV_CODE_UNIT_FLG,edge_encryption_enabled=true" label="SV_CODE_UNIT_FLG" max_length="40" name="u_sv_code_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=SYSTEM_ID_UNIT_FLG,edge_encryption_enabled=true" label="SYSTEM_ID_UNIT_FLG" max_length="40" name="u_system_id_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=SYS_SV_UNIT_FLG,edge_encryption_enabled=true" label="SYS_SV_UNIT_FLG" max_length="40" name="u_sys_sv_unit_flg" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_DAY,edge_encryption_enabled=true" label="TOUROKU_DAY" max_length="40" name="u_touroku_day" type="string"/>
+        <element attributes="import_attribute_name=TROUBLE_REPORT_FLG,edge_encryption_enabled=true" label="TROUBLE_REPORT_FLG" max_length="40" name="u_trouble_report_flg" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_COUNT,edge_encryption_enabled=true" label="UPDATE_COUNT" max_length="40" name="u_update_count" type="string"/>
+        <element attributes="import_attribute_name=﻿&quot;CATEGORY_KBN&quot;,edge_encryption_enabled=true" label="﻿&quot;CATEGORY_KBN&quot;" max_length="40" name="u___category_kbn_" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="取込テーブル_ドキュメント取扱区分コードマスタ" max_length="40" name="x_301301_test_app6_import_t_nw_doc_tori_kbn_code_m_csv" type="collection">
+        <element attributes="import_attribute_name=DEL_FLG,edge_encryption_enabled=true" label="DEL_FLG" max_length="40" name="u_del_flg" type="string"/>
+        <element attributes="import_attribute_name=KBN_DATA,edge_encryption_enabled=true" label="KBN_DATA" max_length="40" name="u_kbn_data" type="string"/>
+        <element attributes="import_attribute_name=LAST_UPDATE_DAY,edge_encryption_enabled=true" label="LAST_UPDATE_DAY" max_length="40" name="u_last_update_day" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_DAY,edge_encryption_enabled=true" label="TOUROKU_DAY" max_length="40" name="u_touroku_day" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_COUNT,edge_encryption_enabled=true" label="UPDATE_COUNT" max_length="40" name="u_update_count" type="string"/>
+        <element attributes="import_attribute_name=﻿&quot;KBN_CODE_NO&quot;,edge_encryption_enabled=true" label="﻿&quot;KBN_CODE_NO&quot;" max_length="40" name="u___kbn_code_no_" type="string"/>
+    </element>
+</database>

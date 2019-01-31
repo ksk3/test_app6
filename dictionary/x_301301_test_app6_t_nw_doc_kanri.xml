@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ドキュメント管理情報" max_length="40" name="x_301301_test_app6_t_nw_doc_kanri" type="collection">
+        <element display="true" label="ドキュメント名" max_length="255" name="document_name" type="string"/>
+        <element label="ドキュメント格納場所" max_length="40" name="document_path" type="file_attachment"/>
+        <element label="ドキュメント種別区分" max_length="2" name="doc_kbn_code" type="integer"/>
+        <element label="ドキュメント連番" mandatory="true" max_length="7" name="doc_key_renban" type="integer"/>
+        <element label="ドキュメント取扱区分" mandatory="true" max_length="2" name="doc_tori_kbn_code" reference="x_301301_test_app6_t_nw_doc_tori_kbn_code_m" type="reference"/>
+        <element label="業者ID（キャリア）" max_length="32" name="gyousya_id_carrier" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="carrier_flg=1^EQ" reference_qual_condition="carrier_flg=1^EQ" type="reference"/>
+        <element label="業者ID（保守業者）" max_length="32" name="gyousya_id_hoshu" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="hosyu_flg=1^EQ" reference_qual_condition="hosyu_flg=1^EQ" type="reference"/>
+        <element label="業者ID（ベンダ）" max_length="32" name="gyousya_id_vender" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="maker_flg=1^EQ" reference_qual_condition="maker_flg=1^EQ" type="reference"/>
+        <element label="回線品目" max_length="32" name="hinmoku" reference="x_301301_test_app6_t_nw_kaisenhinmoku_m" type="reference"/>
+        <element label="NICC_CMDB項目名" max_length="60" name="icc_cmdb_koumoku_name" type="string"/>
+        <element label="NICC表示順" max_length="2" name="icc_cmdb_sort_no" type="integer"/>
+        <element label="NICC_CMDBﾃｰﾌﾞﾙ名" max_length="60" name="icc_cmdb_table_name" type="string"/>
+        <element label="ICC連携FLG" max_length="1" name="icc_renkei_flg" type="integer"/>
+        <element label="回線内部キー内連番" max_length="2" name="kaisen_key_renban" type="integer"/>
+        <element label="内部キー" max_length="8" name="kiki_kaisen_key" type="string"/>
+        <element label="機種ID" max_length="32" name="kisyu_id" reference="x_301301_test_app6_t_nw_kisyu_m" type="reference"/>
+        <element label="サービスコード" max_length="32" name="sv_code" reference="x_301301_test_app6_t_nw_system_sv" type="reference"/>
+        <element label="システムID" max_length="32" name="system_id" reference="x_301301_test_app6_t_nw_system_kanri2" type="reference"/>
+        <element label="システム拠点ID" max_length="32" name="system_kyoten_id" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="トラブルレポートフラグ" max_length="1" name="trouble_report_flg" type="string"/>
+        <index name="index">
+            <element name="kisyu_id"/>
+        </index>
+        <index name="index2">
+            <element name="gyousya_id_vender"/>
+        </index>
+        <index name="index3">
+            <element name="gyousya_id_hoshu"/>
+        </index>
+        <index name="index4">
+            <element name="gyousya_id_carrier"/>
+        </index>
+        <index name="index5">
+            <element name="system_id"/>
+        </index>
+        <index name="index6">
+            <element name="sv_code"/>
+        </index>
+        <index name="index7">
+            <element name="system_kyoten_id"/>
+        </index>
+        <index name="index8">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index9">
+            <element name="hinmoku"/>
+        </index>
+    </element>
+</database>

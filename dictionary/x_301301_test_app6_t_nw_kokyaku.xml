@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="core_company" label="顧客" max_length="40" name="x_301301_test_app6_t_nw_kokyaku" type="collection">
+        <element label="顧客略称" max_length="30" name="kokyaku_short_name" type="string"/>
+    </element>
+</database>

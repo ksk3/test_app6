@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmn_department" label="部署マスタ" max_length="40" name="x_301301_test_app6_t_nw_busyo_m" type="collection"/>
+</database>

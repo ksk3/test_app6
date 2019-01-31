@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="dscy_switchport" label="ポート情報" max_length="40" name="x_301301_test_app6_dscy_switchport" sizeclass="8" type="collection">
+        <element label="ホスト" mandatory="true" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
+        <element label="ネットワーク名" max_length="64" name="nw_name" type="string"/>
+        <element label="スロット/ポート" mandatory="true" max_length="24" name="port_slot_no" type="string"/>
+        <element label="障害区分" max_length="6" name="shougai_kbn" type="string"/>
+        <element label="トラフィック監視" max_length="40" name="traffic_kanshi" type="boolean"/>
+        <element label="VLAN番号" max_length="128" name="vlan_no" type="string"/>
+    </element>
+</database>

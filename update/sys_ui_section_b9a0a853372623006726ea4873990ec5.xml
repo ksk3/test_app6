@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b9a0a853372623006726ea4873990ec5" sys_domain="global" table="x_301301_test_app6_t_nw_gyousya_m" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>cf532cd3372623006726ea4873990eb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gyousya_name_koukai</element>
+            <position>1</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>43532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>2</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>c3532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gyousya_mail_address</element>
+            <position>3</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>47532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maker_flg</element>
+            <position>4</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>c7532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hosyu_flg</element>
+            <position>5</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>4b532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carrier_flg</element>
+            <position>6</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>cb532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provider_flg</element>
+            <position>7</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 06:07:51</sys_created_on>
+            <sys_id>4f532cd3372623006726ea4873990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 06:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gyousya_id</element>
+            <position>8</position>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2019-01-07 09:42:45</sys_created_on>
+            <sys_id>1474fc6a377623006726ea4873990ee4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="Default view">b9a0a853372623006726ea4873990ec5</sys_ui_section>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2019-01-07 09:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_301301_test_app6_t_nw_gyousya_m</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_e</sys_created_by>
+            <sys_created_on>2018-12-28 05:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9a0a853372623006726ea4873990ec5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_301301_test_app6_t_nw_gyousya_m</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+            <sys_update_name>sys_ui_section_b9a0a853372623006726ea4873990ec5</sys_update_name>
+            <sys_updated_by>admin_e</sys_updated_by>
+            <sys_updated_on>2018-12-28 05:56:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

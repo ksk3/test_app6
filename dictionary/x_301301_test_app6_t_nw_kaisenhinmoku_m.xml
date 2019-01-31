@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="回線品目マスタ" max_length="40" name="x_301301_test_app6_t_nw_kaisenhinmoku_m" type="collection">
+        <element label="回線品目コード" mandatory="true" max_length="8" name="kaisen_hinmoku_code" type="string"/>
+        <element display="true" label="回線品目名称" max_length="64" name="kaisen_hinmoku_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

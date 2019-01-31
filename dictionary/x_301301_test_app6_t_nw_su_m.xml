@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_service" label="SUマスタ" max_length="40" name="x_301301_test_app6_t_nw_su_m" sizeclass="34" type="collection">
+        <element label="SUコード" mandatory="true" max_length="2" name="su_code" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c936a77a37ae23006726ea4873990e25" sys_domain="global" table="x_301301_test_app6_t_nw_kokyaku" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-27 07:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8136a77a37ae23006726ea4873990e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_301301_test_app6_t_nw_kokyaku" name="x_301301_test_app6_t_nw_kokyaku" sys_domain="global" view="Default view">c936a77a37ae23006726ea4873990e25</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kokyaku" sys_domain="global" view="Default view">c536a77a37ae23006726ea4873990e27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-27 07:02:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-27 08:11:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8167f7637ee23006726ea4873990e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_301301_test_app6_t_nw_kokyaku" name="x_301301_test_app6_t_nw_kokyaku" sys_domain="global" view="Default view">c936a77a37ae23006726ea4873990e25</sys_ui_form>
+            <sys_ui_section caption="システム管理" display_value="システム管理" name="x_301301_test_app6_t_nw_kokyaku" sys_domain="global" view="Default view">d8167f7637ee23006726ea4873990e5a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-27 08:11:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_301301_test_app6_t_nw_kokyaku</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-27 07:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c936a77a37ae23006726ea4873990e25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_301301_test_app6_t_nw_kokyaku</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c936a77a37ae23006726ea4873990e25</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-27 07:02:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

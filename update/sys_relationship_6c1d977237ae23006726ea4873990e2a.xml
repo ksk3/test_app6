@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_301301_test_app6_t_nw_system_kyoten</basic_apply_to>
+        <basic_query_from>x_301301_test_app6_t_nw_system_kanri2</basic_query_from>
+        <insert_callback/>
+        <name>システムIDからシステム拠点</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field>sla</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 06:22:58</sys_created_on>
+        <sys_id>6c1d977237ae23006726ea4873990e2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>システム管理からシステム拠点</sys_name>
+        <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+        <sys_update_name>sys_relationship_6c1d977237ae23006726ea4873990e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 06:38:51</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c1d977237ae23006726ea4873990e2a"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6c1d977237ae23006726ea4873990e2a</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 06:22:58</sys_created_on>
+        <sys_id>a23d537237ae23006726ea4873990e96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-27 07:47:54</sys_updated_on>
+        <tablename>sys_relationship</tablename>
+        <value>システム管理からシステム拠点</value>
+    </sys_translated_text>
+</record_update>

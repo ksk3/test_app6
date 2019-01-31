@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="ast_contract" label="機器申込書番号管理" max_length="40" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" type="collection">
+        <element label="システム拠点" max_length="32" name="system_kyoten_id" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
+        <index name="index">
+            <element name="system_kyoten_id"/>
+        </index>
+    </element>
+</database>

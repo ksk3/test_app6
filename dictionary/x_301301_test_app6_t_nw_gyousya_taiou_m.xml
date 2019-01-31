@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="業者対応時間マスタ" max_length="40" name="x_301301_test_app6_t_nw_gyousya_taiou_m" type="collection">
+        <element label="業者ID" mandatory="true" max_length="32" name="gyousya_id" reference="x_301301_test_app6_t_nw_gyousya_m" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="対応時間" mandatory="true" max_length="128" name="taiou_time" type="string"/>
+        <index name="index">
+            <element name="gyousya_id"/>
+            <element name="taiou_time"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmn_location" label="システム拠点" max_length="40" name="x_301301_test_app6_t_nw_system_kyoten" type="collection">
+        <element label="システムID" mandatory="true" max_length="32" name="id" reference="x_301301_test_app6_t_nw_system_kanri2" type="reference"/>
+        <index name="index">
+            <element name="id"/>
+        </index>
+    </element>
+</database>

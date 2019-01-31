@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="取込テーブル_機種マスタ" max_length="40" name="x_301301_test_app6_import_t_nw_kisyu_m" type="collection">
+        <element attributes="import_attribute_name=CONFIG_READTOOL,edge_encryption_enabled=true" label="CONFIG_READTOOL" max_length="40" name="u_config_readtool" type="string"/>
+        <element attributes="import_attribute_name=DEL_FLG,edge_encryption_enabled=true" label="DEL_FLG" max_length="40" name="u_del_flg" type="string"/>
+        <element attributes="import_attribute_name=DES_MAX_THROUGHPUT,edge_encryption_enabled=true" label="DES_MAX_THROUGHPUT" max_length="40" name="u_des_max_throughput" type="string"/>
+        <element attributes="import_attribute_name=GAISUN_ACDENATSU,edge_encryption_enabled=true" label="GAISUN_ACDENATSU" max_length="40" name="u_gaisun_acdenatsu" type="string"/>
+        <element attributes="import_attribute_name=GAISUN_ACDENRYU,edge_encryption_enabled=true" label="GAISUN_ACDENRYU" max_length="40" name="u_gaisun_acdenryu" type="string"/>
+        <element attributes="import_attribute_name=GAISUN_DENGENGAISUN,edge_encryption_enabled=true" label="GAISUN_DENGENGAISUN" max_length="40" name="u_gaisun_dengengaisun" type="string"/>
+        <element attributes="import_attribute_name=GAISUN_DENGENOMOSA,edge_encryption_enabled=true" label="GAISUN_DENGENOMOSA" max_length="40" name="u_gaisun_dengenomosa" type="string"/>
+        <element attributes="import_attribute_name=GAISUN_SYUHASUU,edge_encryption_enabled=true" label="GAISUN_SYUHASUU" max_length="40" name="u_gaisun_syuhasuu" type="string"/>
+        <element attributes="import_attribute_name=KIKISHUBETU_CODE,edge_encryption_enabled=true" label="KIKISHUBETU_CODE" max_length="40" name="u_kikishubetu_code" type="string"/>
+        <element attributes="import_attribute_name=KISYU_ID,edge_encryption_enabled=true" label="KISYU_ID" max_length="40" name="u_kisyu_id" type="string"/>
+        <element attributes="import_attribute_name=KISYU_KBN,edge_encryption_enabled=true" label="KISYU_KBN" max_length="40" name="u_kisyu_kbn" type="string"/>
+        <element attributes="import_attribute_name=KISYU_KBN_EXT,edge_encryption_enabled=true" label="KISYU_KBN_EXT" max_length="40" name="u_kisyu_kbn_ext" type="string"/>
+        <element attributes="import_attribute_name=KISYU_NAME,edge_encryption_enabled=true" label="KISYU_NAME" max_length="54" name="u_kisyu_name" type="string"/>
+        <element attributes="import_attribute_name=KISYU_NAME_KOUKAI,edge_encryption_enabled=true" label="KISYU_NAME_KOUKAI" max_length="54" name="u_kisyu_name_koukai" type="string"/>
+        <element attributes="import_attribute_name=LAN_COUNT,edge_encryption_enabled=true" label="LAN_COUNT" max_length="40" name="u_lan_count" type="string"/>
+        <element attributes="import_attribute_name=LAST_UPDATE_DAY,edge_encryption_enabled=true" label="LAST_UPDATE_DAY" max_length="40" name="u_last_update_day" type="string"/>
+        <element attributes="import_attribute_name=LAST_UPDATE_TIME,edge_encryption_enabled=true" label="LAST_UPDATE_TIME" max_length="40" name="u_last_update_time" type="string"/>
+        <element attributes="import_attribute_name=MAKER_ID,edge_encryption_enabled=true" label="MAKER_ID" max_length="40" name="u_maker_id" type="string"/>
+        <element attributes="import_attribute_name=MAX_MAPPEDIP_COUNT,edge_encryption_enabled=true" label="MAX_MAPPEDIP_COUNT" max_length="40" name="u_max_mappedip_count" type="string"/>
+        <element attributes="import_attribute_name=MAX_NEWSESSION_COUNT,edge_encryption_enabled=true" label="MAX_NEWSESSION_COUNT" max_length="40" name="u_max_newsession_count" type="string"/>
+        <element attributes="import_attribute_name=MAX_POLICY_COUNT,edge_encryption_enabled=true" label="MAX_POLICY_COUNT" max_length="40" name="u_max_policy_count" type="string"/>
+        <element attributes="import_attribute_name=MAX_SESSION_COUNT,edge_encryption_enabled=true" label="MAX_SESSION_COUNT" max_length="40" name="u_max_session_count" type="string"/>
+        <element attributes="import_attribute_name=MAX_STATICROUTE_COUNT,edge_encryption_enabled=true" label="MAX_STATICROUTE_COUNT" max_length="40" name="u_max_staticroute_count" type="string"/>
+        <element attributes="import_attribute_name=MAX_THROUGHPUT,edge_encryption_enabled=true" label="MAX_THROUGHPUT" max_length="40" name="u_max_throughput" type="string"/>
+        <element attributes="import_attribute_name=MAX_VPNTUNNEL_COUNT,edge_encryption_enabled=true" label="MAX_VPNTUNNEL_COUNT" max_length="40" name="u_max_vpntunnel_count" type="string"/>
+        <element attributes="import_attribute_name=SERIES,edge_encryption_enabled=true" label="SERIES" max_length="40" name="u_series" type="string"/>
+        <element attributes="import_attribute_name=SIYOU_KOUDO,edge_encryption_enabled=true" label="SIYOU_KOUDO" max_length="40" name="u_siyou_koudo" type="string"/>
+        <element attributes="import_attribute_name=SIYOU_ONDO,edge_encryption_enabled=true" label="SIYOU_ONDO" max_length="40" name="u_siyou_ondo" type="string"/>
+        <element attributes="import_attribute_name=SIYOU_SHITSUDO,edge_encryption_enabled=true" label="SIYOU_SHITSUDO" max_length="40" name="u_siyou_shitsudo" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_DAY,edge_encryption_enabled=true" label="TOUROKU_DAY" max_length="40" name="u_touroku_day" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_ID,edge_encryption_enabled=true" label="TOUROKU_ID" max_length="40" name="u_touroku_id" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_IP_ADDRESS,edge_encryption_enabled=true" label="TOUROKU_IP_ADDRESS" max_length="40" name="u_touroku_ip_address" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_PROGRAM_ID,edge_encryption_enabled=true" label="TOUROKU_PROGRAM_ID" max_length="40" name="u_touroku_program_id" type="string"/>
+        <element attributes="import_attribute_name=TOUROKU_TIME,edge_encryption_enabled=true" label="TOUROKU_TIME" max_length="40" name="u_touroku_time" type="string"/>
+        <element attributes="import_attribute_name=TOUSAI_IF,edge_encryption_enabled=true" label="TOUSAI_IF" max_length="40" name="u_tousai_if" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_COUNT,edge_encryption_enabled=true" label="UPDATE_COUNT" max_length="40" name="u_update_count" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_ID,edge_encryption_enabled=true" label="UPDATE_ID" max_length="40" name="u_update_id" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_IP_ADDRESS,edge_encryption_enabled=true" label="UPDATE_IP_ADDRESS" max_length="40" name="u_update_ip_address" type="string"/>
+        <element attributes="import_attribute_name=UPDATE_PROGRAM_ID,edge_encryption_enabled=true" label="UPDATE_PROGRAM_ID" max_length="40" name="u_update_program_id" type="string"/>
+        <element attributes="import_attribute_name=WAN_COUNT,edge_encryption_enabled=true" label="WAN_COUNT" max_length="40" name="u_wan_count" type="string"/>
+    </element>
+</database>

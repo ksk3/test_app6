@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ドキュメント取扱区分コードマスタ" max_length="40" name="x_301301_test_app6_t_nw_doc_tori_kbn_code_m" type="collection">
+        <element label="区分コードNo" mandatory="true" max_length="2" name="kbn_code_no" type="integer"/>
+        <element display="true" label="区分データ" mandatory="true" max_length="128" name="kbn_data" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
