@@ -8,7 +8,7 @@
             <sys_id>ac35d81b37e223006726ea4873990e46</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Assets" display_value="Assets" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e45</sys_ui_section>
+            <sys_ui_section caption="Assets" display_value="資産" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e45</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

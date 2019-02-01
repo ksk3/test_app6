@@ -32,7 +32,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="コレクション">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_301301_test_app6_t_nw_gyousyakyoten_m</name>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-18 04:58:11</sys_created_on>
-        <sys_id>c7ccd0c6374f23006726ea4873990ef0</sys_id>
+        <sys_id>7f340412379363006726ea4873990e03</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_301301_test_app6_t_nw_gyousyakyoten_m</sys_name>
         <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
         <sys_policy/>
         <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
-        <sys_update_name>sys_dictionary_x_301301_test_app6_t_nw_gyousyakyoten_m_null</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-18 04:58:11</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_301301_test_app6_t_nw_gyousyakyoten_m_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-31 08:06:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

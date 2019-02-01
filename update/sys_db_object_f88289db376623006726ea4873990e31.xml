@@ -16,10 +16,10 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Business Service" name="cmdb_ci_service">14c3f7a181531300aadba4a47c598e34</super_class>
-        <sys_class_code>!)</sys_class_code>
+        <super_class display_value="ビジネスサービス" name="cmdb_ci_service">14c3f7a181531300aadba4a47c598e34</super_class>
+        <sys_class_code>!(</sys_class_code>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path>/!!/#C/!)</sys_class_path>
+        <sys_class_path>/!!/#C/!(</sys_class_path>
         <sys_created_by>admin_e</sys_created_by>
         <sys_created_on>2018-12-28 08:26:38</sys_created_on>
         <sys_id>f88289db376623006726ea4873990e31</sys_id>

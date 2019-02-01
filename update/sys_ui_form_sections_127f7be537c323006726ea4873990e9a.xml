@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kiki_moushikomi_no" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">127f7be537c323006726ea4873990e9a</sys_ui_form>
-            <sys_ui_section caption="General" display_value="General" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">1a7fbfe537c323006726ea4873990e9a</sys_ui_section>
+            <sys_ui_section caption="General" display_value="全般" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">1a7fbfe537c323006726ea4873990e9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-17 08:11:36</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kiki_moushikomi_no" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">127f7be537c323006726ea4873990e9a</sys_ui_form>
-            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">167f7be537c323006726ea4873990e9c</sys_ui_section>
+            <sys_ui_section caption="Renewal/Extension" display_value="更改/延長" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">167f7be537c323006726ea4873990e9c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-17 08:11:35</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kiki_moushikomi_no" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">127f7be537c323006726ea4873990e9a</sys_ui_form>
-            <sys_ui_section caption="Financial" display_value="Financial" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">de7f7be537c323006726ea4873990e9e</sys_ui_section>
+            <sys_ui_section caption="Financial" display_value="財務" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">de7f7be537c323006726ea4873990e9e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-17 08:11:35</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kiki_moushikomi_no" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">127f7be537c323006726ea4873990e9a</sys_ui_form>
-            <sys_ui_section caption="Terms and Conditions" display_value="Terms and Conditions" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">527fbfe537c323006726ea4873990e99</sys_ui_section>
+            <sys_ui_section caption="Terms and Conditions" display_value="契約条件" name="x_301301_test_app6_t_nw_kiki_moushikomi_no" sys_domain="global" view="Default view">527fbfe537c323006726ea4873990e99</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-17 08:11:36</sys_updated_on>
         </sys_ui_form_section>
@@ -89,7 +89,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-17 08:11:35</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

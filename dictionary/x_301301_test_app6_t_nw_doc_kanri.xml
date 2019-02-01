@@ -40,12 +40,15 @@
             <element name="sv_code"/>
         </index>
         <index name="index7">
-            <element name="system_kyoten_id"/>
+            <element name="doc_tori_kbn_code"/>
         </index>
         <index name="index8">
-            <element name="sys_class_name"/>
+            <element name="system_kyoten_id"/>
         </index>
         <index name="index9">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index10">
             <element name="hinmoku"/>
         </index>
     </element>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="機器仕様マスタ" max_length="40" name="x_301301_test_app6_t_nw_kikishiyou_m" type="collection">
+        <element choice="3" default="1" label="機器仕様種別" max_length="1" name="kiki_shiyou_knd" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OS-Features" language="ja" value="2"/>
+                <element inactive_on_update="false" label="OS-Version" language="ja" value="1"/>
+                <element inactive_on_update="false" label="メモリ(DRAM)" language="ja" value="3"/>
+                <element inactive_on_update="false" label="メモリ(Flash)" language="ja" value="4"/>
+            </choice>
+        </element>
+        <element label="メーカー" max_length="32" name="maker_id" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="maker_flg=true^EQ" reference_qual_condition="maker_flg=true^EQ" type="reference"/>
+    </element>
+</database>

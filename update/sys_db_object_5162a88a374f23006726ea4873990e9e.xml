@@ -16,10 +16,10 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Base Configuration Item" name="cmdb">36f2372981131300aadba4a47c598e63</super_class>
-        <sys_class_code>$#</sys_class_code>
+        <super_class display_value="ベース構成アイテム" name="cmdb">36f2372981131300aadba4a47c598e63</super_class>
+        <sys_class_code>$$</sys_class_code>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path>/$#</sys_class_path>
+        <sys_class_path>/$$</sys_class_path>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-18 05:23:39</sys_created_on>
         <sys_id>5162a88a374f23006726ea4873990e9e</sys_id>

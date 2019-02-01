@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="core_company" label="業者マスタ" max_length="40" name="x_301301_test_app6_t_nw_gyousya_m" type="collection">
-        <element label="キャリアフラグ" max_length="1" name="carrier_flg" type="integer"/>
+        <element label="キャリアフラグ" max_length="1" name="carrier_flg" type="boolean"/>
         <element label="業者ID" mandatory="true" max_length="8" name="gyousya_id" type="string"/>
         <element label="業者メールアドレス" max_length="128" name="gyousya_mail_address" type="string"/>
         <element label="業者名（正式名）" max_length="64" name="gyousya_name_koukai" type="string"/>
-        <element label="保守会社フラグ" max_length="1" name="hosyu_flg" type="integer"/>
-        <element label="メーカーフラグ" max_length="1" name="maker_flg" type="integer"/>
-        <element label="プロバイダフラグ" max_length="1" name="provider_flg" type="integer"/>
+        <element label="保守会社フラグ" max_length="1" name="hosyu_flg" type="boolean"/>
+        <element label="メーカーフラグ" max_length="1" name="maker_flg" type="boolean"/>
+        <element label="プロバイダフラグ" max_length="1" name="provider_flg" type="boolean"/>
     </element>
 </database>

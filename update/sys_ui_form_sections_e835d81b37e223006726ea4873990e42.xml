@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kisyu_m" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e42</sys_ui_form>
-            <sys_ui_section caption="General" display_value="General" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">3035d81b37e223006726ea4873990e4b</sys_ui_section>
+            <sys_ui_section caption="General" display_value="全般" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">3035d81b37e223006726ea4873990e4b</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kisyu_m" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e42</sys_ui_form>
-            <sys_ui_section caption="Compatibles" display_value="Compatibles" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">f835d81b37e223006726ea4873990e49</sys_ui_section>
+            <sys_ui_section caption="Compatibles" display_value="互換性" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">f835d81b37e223006726ea4873990e49</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kisyu_m" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e42</sys_ui_form>
-            <sys_ui_section caption="Assets" display_value="Assets" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e45</sys_ui_section>
+            <sys_ui_section caption="Assets" display_value="資産" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e45</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_kisyu_m" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">e835d81b37e223006726ea4873990e42</sys_ui_form>
-            <sys_ui_section caption="Configuration items" display_value="Configuration items" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">f835d81b37e223006726ea4873990e4e</sys_ui_section>
+            <sys_ui_section caption="Configuration items" display_value="構成アイテム" name="x_301301_test_app6_t_nw_kisyu_m" sys_domain="global" view="Default view">f835d81b37e223006726ea4873990e4e</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
         </sys_ui_form_section>
@@ -89,7 +89,7 @@
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:05:59</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

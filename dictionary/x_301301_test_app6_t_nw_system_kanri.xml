@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci_service" label="bk_システムＩＤ管理情報" max_length="40" name="x_301301_test_app6_t_nw_system_kanri" sizeclass="5" type="collection">
-        <element label="メモリ（DRAM）" max_length="16" name="memory_dram" type="string"/>
-        <element label="メモリ（Flash）" max_length="16" name="memory_flash" type="string"/>
-        <element label="資産区分" max_length="2" name="shisan_kbn" type="integer"/>
-        <element label="新規 ファイルの添付" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
-        <element label="顧客" mandatory="true" max_length="32" name="u_reference_1" reference="x_301301_test_app6_t_nw_kokyaku" type="reference"/>
-    </element>
-</database>

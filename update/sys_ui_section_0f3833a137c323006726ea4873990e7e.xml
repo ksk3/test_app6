@@ -4,13 +4,13 @@
             <element>12M.x_301301_test_app6_t_nw_kikikihon2.alm_asset.ci</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-30 09:59:24</sys_created_on>
-            <sys_id>28d4dfbd375723006726ea4873990e5c</sys_id>
+            <sys_created_on>2019-02-01 07:15:27</sys_created_on>
+            <sys_id>1e720d2e37d323006726ea4873990e32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="資産" display_value="資産" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">0f3833a137c323006726ea4873990e7e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-30 09:59:24</sys_updated_on>
+            <sys_updated_on>2019-02-01 07:15:27</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>
@@ -36,7 +36,7 @@
             <sys_updated_on>2019-01-17 07:39:57</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

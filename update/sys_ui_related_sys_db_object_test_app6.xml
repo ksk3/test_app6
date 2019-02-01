@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="sys_db_object" version="2" view="test_app6">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Table - test_app6" name="sys_db_object" related_list="NULL" sys_domain="global" view="35da67c7376223006726ea4873990e75">993078a6377623006726ea4873990e05</list_id>
+            <list_id display_value="テーブル - test_app6" name="sys_db_object" related_list="NULL" sys_domain="global" view="35da67c7376223006726ea4873990e75">993078a6377623006726ea4873990e05</list_id>
             <order_by/>
             <position>0</position>
             <related_list/>
@@ -15,7 +15,7 @@
             <sys_updated_on>2019-01-07 09:24:15</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Table - test_app6</calculated_name>
+            <calculated_name>テーブル - test_app6</calculated_name>
             <filter/>
             <name>sys_db_object</name>
             <order_by/>

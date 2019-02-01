@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="システム拠点" section_id="fcc69d7a373623006726ea4873990ea0" sys_domain="global" table="x_301301_test_app6_t_nw_system_kanri2" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_301301_test_app6_t_nw_system_kanri2.x_301301_test_app6_2.system_id</element>
+            <element>12M.x_301301_test_app6_t_nw_system_kanri2.x_301301_test_app6_t_nw_system_kyoten.id</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-30 10:30:23</sys_created_on>
-            <sys_id>86eb5ff1379723006726ea4873990e65</sys_id>
+            <sys_created_on>2019-01-31 09:27:20</sys_created_on>
+            <sys_id>d4179c5237d363006726ea4873990e34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="システム拠点" display_value="システム拠点" name="x_301301_test_app6_t_nw_system_kanri2" sys_domain="global" view="Default view">fcc69d7a373623006726ea4873990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-30 10:30:23</sys_updated_on>
+            <sys_updated_on>2019-01-31 09:27:20</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>
@@ -36,7 +36,7 @@
             <sys_updated_on>2019-01-08 06:51:11</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

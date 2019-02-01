@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_gyousya_m" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">b5a06453372623006726ea4873990e1c</sys_ui_form>
-            <sys_ui_section caption="General" display_value="General" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">39a06453372623006726ea4873990e1e</sys_ui_section>
+            <sys_ui_section caption="General" display_value="全般" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">39a06453372623006726ea4873990e1e</sys_ui_section>
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:56:01</sys_updated_on>
         </sys_ui_form_section>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f9a0a853372623006726ea4873990ebc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_301301_test_app6_t_nw_gyousya_m" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">b5a06453372623006726ea4873990e1c</sys_ui_form>
-            <sys_ui_section caption="Information" display_value="Information" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75a0a853372623006726ea4873990eba</sys_ui_section>
-            <sys_updated_by>admin_e</sys_updated_by>
-            <sys_updated_on>2018-12-28 05:56:01</sys_updated_on>
+            <sys_ui_section caption="Information" display_value="情報" name="x_301301_test_app6_t_nw_gyousya_m" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">3da0a853372623006726ea4873990ebe</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-01-31 08:07:28</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_301301_test_app6_t_nw_gyousya_m</name>
@@ -61,7 +61,7 @@
             <sys_updated_by>admin_e</sys_updated_by>
             <sys_updated_on>2018-12-28 05:56:01</sys_updated_on>
             <sys_user/>
-            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view display_value="ベンダー" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

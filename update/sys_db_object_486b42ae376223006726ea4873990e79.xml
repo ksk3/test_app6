@@ -16,7 +16,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Switchport" name="dscy_switchport">08d377e181531300aadba4a47c598e72</super_class>
+        <super_class display_value="スイッチポート" name="dscy_switchport">08d377e181531300aadba4a47c598e72</super_class>
         <sys_class_code>!!</sys_class_code>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path>/!!/!*/!,/!!</sys_class_path>

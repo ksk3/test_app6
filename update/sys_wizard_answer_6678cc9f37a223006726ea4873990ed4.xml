@@ -9,7 +9,7 @@
         <next_question/>
         <order>100</order>
         <payload_name/>
-        <question display_value="Model" name="Model">c39a444147622100158b949b6c9a71de</question>
+        <question display_value="モデル" name="Model">c39a444147622100158b949b6c9a71de</question>
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>

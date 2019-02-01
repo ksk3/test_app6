@@ -5,11 +5,11 @@
         <element label="審査承認状況区分" mandatory="true" max_length="2" name="sinsa_status_kbn" type="integer"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
-            <element name="data_status_kbn"/>
-            <element name="sinsa_status_kbn"/>
+            <element name="sys_class_name"/>
         </index>
         <index name="index2">
-            <element name="sys_class_name"/>
+            <element name="data_status_kbn"/>
+            <element name="sinsa_status_kbn"/>
         </index>
     </element>
 </database>

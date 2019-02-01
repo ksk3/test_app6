@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci" label="システム拠点情報2" max_length="40" name="x_301301_test_app6_2" sizeclass="7" type="collection">
-        <element label="システムID" max_length="32" name="system_id" reference="x_301301_test_app6_t_nw_system_kanri2" type="reference"/>
-    </element>
-</database>

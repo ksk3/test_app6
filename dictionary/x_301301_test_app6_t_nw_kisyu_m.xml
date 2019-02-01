@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="cmdb_model" label="機種マスタ" max_length="40" name="x_301301_test_app6_t_nw_kisyu_m" type="collection">
         <element label="機種種別" max_length="2" name="kisyu_kbn" type="integer"/>
-        <element label="メーカーID" max_length="32" name="maker_id" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="maker_flg=1^EQ" reference_qual_condition="maker_flg=1^EQ" type="reference"/>
+        <element label="メーカー" max_length="32" name="maker_id" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="maker_flg=1^EQ" reference_qual_condition="maker_flg=1^EQ" type="reference"/>
         <index name="index">
             <element name="maker_id"/>
         </index>

@@ -14,9 +14,12 @@
         <element label="ホスト" mandatory="true" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
         <element choice="1" label="機器取扱区分" max_length="40" name="kiki_srv_toriatukai_kbn" type="choice">
             <choice>
+                <element inactive_on_update="false" label="MIND標準機" value="1"/>
                 <element inactive_on_update="false" label="MIND標準機" language="ja" value="1"/>
                 <element inactive_on_update="false" label="指定なし" language="ja" value="0"/>
+                <element inactive_on_update="false" label="指定なし" value="0"/>
                 <element inactive_on_update="false" label="標準外機器" language="ja" value="2"/>
+                <element inactive_on_update="false" label="標準外機器" value="2"/>
             </choice>
         </element>
         <element label="設定変更有無" max_length="40" name="set_change_flg" type="boolean"/>

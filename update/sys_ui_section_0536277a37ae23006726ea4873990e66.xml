@@ -36,7 +36,7 @@
             <sys_updated_on>2018-12-27 07:02:11</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view display_value="ベンダー" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

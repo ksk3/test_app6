@@ -16,10 +16,10 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Router" name="cmdb_ci_router">43d3332581531300aadba4a47c598e6f</super_class>
-        <sys_class_code>!#</sys_class_code>
+        <super_class display_value="ルーター" name="cmdb_ci_router">43d3332581531300aadba4a47c598e6f</super_class>
+        <sys_class_code>!!</sys_class_code>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path>/!!/!)/!|/!#</sys_class_path>
+        <sys_class_path>/!!/!)/!|/!!</sys_class_path>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-08 06:06:25</sys_created_on>
         <sys_id>666ccd72373623006726ea4873990eb1</sys_id>
