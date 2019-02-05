@@ -3,7 +3,7 @@
         <element label="インターネット区分" max_length="1" name="internet_kbn" type="string"/>
         <element label="SUコード" max_length="2" name="su_code" type="string"/>
         <element label="サービスコード" mandatory="true" max_length="4" name="sv_code" type="string"/>
-        <element label="サービス名称" mandatory="true" max_length="256" name="sv_name" type="string"/>
+        <element display="true" label="サービス名称" mandatory="true" max_length="256" name="sv_name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>

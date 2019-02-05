@@ -3,62 +3,32 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f526fce237d323006726ea4873990e35</list_id>
+            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c177b1b375323006726ea4873990eb7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 06:21:37</sys_created_on>
-            <sys_id>bd26fce237d323006726ea4873990e35</sys_id>
+            <sys_created_on>2019-02-04 04:19:56</sys_created_on>
+            <sys_id>60177b1b375323006726ea4873990eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 06:21:37</sys_updated_on>
+            <sys_updated_on>2019-02-04 04:19:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>full_name</element>
-            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f526fce237d323006726ea4873990e35</list_id>
+            <element>maker_id.name</element>
+            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c177b1b375323006726ea4873990eb7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 06:21:37</sys_created_on>
-            <sys_id>3126fce237d323006726ea4873990e36</sys_id>
+            <sys_created_on>2019-02-04 04:19:56</sys_created_on>
+            <sys_id>e0177b1b375323006726ea4873990eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 06:21:37</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>model_number</element>
-            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f526fce237d323006726ea4873990e35</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 06:21:37</sys_created_on>
-            <sys_id>b126fce237d323006726ea4873990e36</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 06:21:37</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>maker_id</element>
-            <list_id display_value="x_301301_test_app6_t_nw_kisyu_m" element="NULL" name="x_301301_test_app6_t_nw_kisyu_m" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f526fce237d323006726ea4873990e35</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 06:21:37</sys_created_on>
-            <sys_id>3526fce237d323006726ea4873990e36</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 06:21:37</sys_updated_on>
+            <sys_updated_on>2019-02-04 04:19:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,10 +42,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 06:21:37</sys_created_on>
+            <sys_created_on>2019-02-04 04:19:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f526fce237d323006726ea4873990e35</sys_id>
+            <sys_id>2c177b1b375323006726ea4873990eb7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_301301_test_app6_t_nw_kisyu_m</sys_name>
             <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
@@ -83,7 +53,7 @@
             <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
             <sys_update_name>sys_ui_list_x_301301_test_app6_t_nw_kisyu_m_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 06:21:37</sys_updated_on>
+            <sys_updated_on>2019-02-04 04:19:56</sys_updated_on>
             <sys_user/>
             <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>

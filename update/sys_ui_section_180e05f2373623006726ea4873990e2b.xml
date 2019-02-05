@@ -3,36 +3,47 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>4908592e371723006726ea4873990e8f</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e0e1bf17375323006726ea4873990e1e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <text>ホスト情報を入力してください。</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>4108592e371723006726ea4873990e90</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e4e1bf17375323006726ea4873990e1e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <text>システム拠点を選択してください。</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>24e1bf17375323006726ea4873990e03</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
+            <text>システムID情報</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>4908592e371723006726ea4873990e8f</element>
+            <element>e0e1bf17375323006726ea4873990e1e</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0508592e371723006726ea4873990e90</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e0e1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -40,13 +51,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8908592e371723006726ea4873990e90</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>64e1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -54,13 +65,13 @@
             <element>kisyu_id</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0d08592e371723006726ea4873990e90</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e4e1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -68,13 +79,13 @@
             <element>kiki_name</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8d08592e371723006726ea4873990e90</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>68e1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -82,13 +93,13 @@
             <element>serial_number</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0108592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e8e1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -96,13 +107,13 @@
             <element>os_version</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8108592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>6ce1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -110,13 +121,13 @@
             <element>os_features</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0508592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>ece1bf17375323006726ea4873990e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -124,13 +135,13 @@
             <element>memory_dram</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8508592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>60e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -138,13 +149,13 @@
             <element>memory_flash</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0908592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e0e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -152,13 +163,13 @@
             <element>moushikomi_no</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8908592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>64e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,13 +177,13 @@
             <element>moushikomi_no2</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0d08592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e4e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -180,13 +191,13 @@
             <element>sv_code</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8d08592e371723006726ea4873990e91</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>68e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -194,13 +205,13 @@
             <element>department</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0108592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e8e1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -208,13 +219,13 @@
             <element>settei_bikou</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8108592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>6ce1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -222,13 +233,13 @@
             <element>data_status_flg</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0508592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>ece1bf17375323006726ea4873990e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -236,27 +247,27 @@
             <element>.split</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8508592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>60e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>4108592e371723006726ea4873990e90</element>
+            <element>e4e1bf17375323006726ea4873990e1e</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0908592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e0e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -264,13 +275,13 @@
             <element>system_kyoten_id</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8908592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>64e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -278,13 +289,13 @@
             <element>system_kyoten_id.zip</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0d08592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e4e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -292,13 +303,13 @@
             <element>system_kyoten_id.state</element>
             <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8d08592e371723006726ea4873990e92</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>68e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -306,13 +317,13 @@
             <element>system_kyoten_id.city</element>
             <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0108592e371723006726ea4873990e93</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e8e1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -320,83 +331,97 @@
             <element>system_kyoten_id.street</element>
             <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8108592e371723006726ea4873990e93</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>6ce1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>system_kyoten_id.id.system_id</element>
-            <position>22</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0508592e371723006726ea4873990e93</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>system_kyoten_id.id.name</element>
-            <position>23</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8508592e371723006726ea4873990e93</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>system_kyoten_id.id.kokyaku_id.name</element>
-            <position>24</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0908592e371723006726ea4873990e93</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address_floor</element>
-            <position>25</position>
+            <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>8908592e371723006726ea4873990e93</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>ece1bf17375323006726ea4873990e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address_etc</element>
-            <position>26</position>
+            <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 08:49:34</sys_created_on>
-            <sys_id>0d08592e371723006726ea4873990e93</sys_id>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>60e1bf17375323006726ea4873990e22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 08:49:34</sys_updated_on>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>24e1bf17375323006726ea4873990e03</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e0e1bf17375323006726ea4873990e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>system_kyoten_id.id.system_id</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>64e1bf17375323006726ea4873990e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>system_kyoten_id.id.name</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>e4e1bf17375323006726ea4873990e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>system_kyoten_id.id.kokyaku_id.name</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 03:57:16</sys_created_on>
+            <sys_id>68e1bf17375323006726ea4873990e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_t_nw_kikikihon2" sys_domain="global" view="Default view">180e05f2373623006726ea4873990e2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 03:57:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
