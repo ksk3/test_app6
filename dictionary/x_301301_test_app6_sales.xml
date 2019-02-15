@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sales" max_length="40" name="x_301301_test_app6_sales" type="collection">
+        <element label="CustomerName" max_length="255" name="customername" type="string_full_utf8"/>
+        <element label="Price" max_length="20" name="price" type="currency"/>
+        <element label="Product" max_length="255" name="product" type="string_full_utf8"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Saledate" max_length="40" name="saledate" type="glide_date"/>
+        <element label="UnitPrice" max_length="20" name="unitprice" type="currency"/>
+    </element>
+</database>

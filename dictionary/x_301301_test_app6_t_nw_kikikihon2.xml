@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_router" label="ネットワーク機器基本情報" max_length="40" name="x_301301_test_app6_t_nw_kikikihon2" sizeclass="14" type="collection">
+    <element audit="true" extends="cmdb_ci_router" label="ネットワーク機器基本情報" max_length="40" name="x_301301_test_app6_t_nw_kikikihon2" sizeclass="15" type="collection">
         <element label="拠点住所（その他）" max_length="128" name="address_etc" type="string"/>
         <element label="拠点住所（フロア）" max_length="64" name="address_floor" type="string"/>
-        <element default="cc76a71637b223006726ea4873990e26" label="ステータス" max_length="32" name="data_status_flg" reference="x_301301_test_app6_t_nw_status_renkei_code_m" type="reference"/>
+        <element default="11" label="ステータス" max_length="32" name="data_status_flg" reference="x_301301_test_app6_t_nw_status_renkei_code_m" type="reference"/>
         <element label="保守業者" max_length="32" name="gyousya_id" reference="x_301301_test_app6_t_nw_gyousya_m" type="reference"/>
         <element label="機器名称" max_length="128" name="kiki_name" type="string"/>
         <element label="機種ID" mandatory="true" max_length="32" name="kisyu_id" reference="x_301301_test_app6_t_nw_kisyu_m" type="reference"/>
         <element label="固定資産登録No" max_length="48" name="koteishisan_no" type="string"/>
+        <element label="主ネットワーク機器内部キー" max_length="32" name="main_kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" reference_qual="stack_base_kiki_flg=0^EQ" reference_qual_condition="stack_base_kiki_flg=0^EQ" type="reference"/>
         <element label="メモリ（DRAM）" max_length="32" name="memory_dram" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=3^EQ" reference_qual_condition="kiki_shiyou_knd=3^EQ" type="reference"/>
         <element label="メモリ（Flash）" max_length="8" name="memory_flash" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=4^EQ" reference_qual_condition="kiki_shiyou_knd=4^EQ" type="reference"/>
         <element label="最新申込書番号(主)" max_length="32" name="moushikomi_no" reference="x_301301_test_app6_t_nw_moushikomi_system" reference_qual="system_kyoten_idSAMEASsystem_kyoten_id^EQ" reference_qual_condition="system_kyoten_idSAMEASsystem_kyoten_id^EQ" type="reference"/>
@@ -14,6 +15,14 @@
         <element label="OS-Features" max_length="8" name="os_features" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=2^EQ" reference_qual_condition="kiki_shiyou_knd=2^EQ" type="reference"/>
         <element label="OS-Version" max_length="8" name="os_version" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=1^EQ" reference_qual_condition="kiki_shiyou_knd=1^EQ" type="reference"/>
         <element label="設定情報備考" max_length="255" name="settei_bikou" type="string"/>
+        <element choice="3" default="0" label="元主機器" max_length="2" name="stack_base_kiki_flg" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="主機器" language="ja" value="0"/>
+                <element inactive_on_update="false" label="従機器" language="ja" value="1"/>
+            </choice>
+        </element>
+        <element default="0" label="スタック内ソート番号" max_length="2" name="stack_sort_no" type="integer"/>
+        <element default="0" label="スイッチ番号" max_length="2" name="stack_switch_no" type="integer"/>
         <element label="サービスコード" max_length="32" name="sv_code" reference="x_301301_test_app6_t_nw_system_sv" type="reference"/>
         <element label="システム拠点" mandatory="true" max_length="32" name="system_kyoten_id" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
     </element>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>data_status_flg,name,kisyu_id,sys_updated_on,system_kyoten_id.id.system_id,system_kyoten_id.id.kokyaku_id.name,system_kyoten_id</field_list>
+        <filter/>
+        <name>ed_t_x_301301_test_app6_t_nw_kikikihon2</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-12 08:44:34</sys_created_on>
+        <sys_id>c35006ca37e323006726ea4873990e3f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ed_t_x_301301_test_app6_t_nw_kikikihon2</sys_name>
+        <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+        <sys_update_name>sys_export_definition_c35006ca37e323006726ea4873990e3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-12 08:44:34</sys_updated_on>
+        <table_name>x_301301_test_app6_t_nw_kikikihon2</table_name>
+        <view display_value="Exp_dc35006ca37e323006726ea4873990e3f" name="exp_dc35006ca37e323006726ea4873990e3f">8b5006ca37e323006726ea4873990e3f</view>
+    </sys_export_definition>
+</record_update>

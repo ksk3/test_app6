@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="ネットワーク機器オプションスロット情報" max_length="40" name="x_301301_test_app6_x_301301_test_app6" sizeclass="3" type="collection">
+        <element label="ホスト" mandatory="true" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
+    </element>
+</database>

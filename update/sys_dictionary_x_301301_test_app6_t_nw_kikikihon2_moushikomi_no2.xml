@@ -45,8 +45,7 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>system_kyoten_idSAMEASsystem_kyoten_id^EQ</reference_qual>
-        <reference_qual_condition table="x_301301_test_app6_t_nw_moushikomi_system">system_kyoten_idSAMEASsystem_kyoten_id^EQ<item endquery="false" field="system_kyoten_id" goto="false" newquery="false" operator="SAMEAS" or="false" value="system_kyoten_id"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="x_301301_test_app6_t_nw_moushikomi_system">system_kyoten_idSAMEASsystem_kyoten_id^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <sizeclass/>

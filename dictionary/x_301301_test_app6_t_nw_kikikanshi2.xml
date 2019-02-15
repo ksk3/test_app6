@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb" label="機器監視保守" max_length="40" name="x_301301_test_app6_t_nw_kikikanshi2" sizeclass="4" type="collection">
+    <element audit="true" extends="cmdb" label="機器監視保守" max_length="40" name="x_301301_test_app6_t_nw_kikikanshi2" sizeclass="7" type="collection">
         <element label="アクセスポイント" max_length="32" name="ap" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
         <element label="Ping確認フラグ" max_length="40" name="chk_by_ping_flg" type="boolean"/>
         <element label="Snmp確認フラグ" max_length="40" name="chk_by_snmp_flg" type="boolean"/>
@@ -28,7 +28,7 @@
         <element label="定期PING有無" max_length="40" name="teiki_ping_flg" type="boolean"/>
         <element label="定例会報告有無" max_length="40" name="teireikai_houkoku_flg" type="boolean"/>
         <element label="トラフィック収集有無フラグ" max_length="40" name="traffic_umu_flg" type="boolean"/>
-        <element label="運用解約日" max_length="40" name="unyo_end_day" type="glide_date_time"/>
-        <element label="運用開始日" max_length="40" name="unyo_start_day" type="glide_date_time"/>
+        <element label="運用解約日" max_length="40" name="unyo_end_day" type="glide_date"/>
+        <element label="運用開始日" max_length="40" name="unyo_start_day" type="glide_date"/>
     </element>
 </database>

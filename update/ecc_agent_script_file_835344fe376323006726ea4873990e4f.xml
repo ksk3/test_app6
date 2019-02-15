@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_file">
+    <ecc_agent_script_file action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum/>
+        <description>ServiceNow Script コードサンプル</description>
+        <directory>false</directory>
+        <name>midserverscriptfile3.servicenowscript</name>
+        <parent/>
+        <script>var request = new sn_ws.RESTMessageV2();&#13;
+request.setEndpoint('https://dev55028.service-now.com/api/x_301301_test_app6/asalesrestapi1?functionname1=updateproductprice');&#13;
+request.setHttpMethod('POST');&#13;
+&#13;
+//Eg. UserName="admin", Password="admin" for this code sample.&#13;
+var user = 'admin';&#13;
+var password = 'adminABC_100!?';&#13;
+&#13;
+request.setBasicAuth(user,password);&#13;
+request.setRequestHeader("Accept","application/json");&#13;
+request.setRequestHeader('Content-Type','application/json');request.setRequestBody("{\"product\":\"PPP\",\"unitprice\":\"3000\"}");&#13;
+var response = request.execute();&#13;
+gs.log(response.getBody());&#13;
+</script>
+        <script_attachment/>
+        <source/>
+        <sys_class_name>ecc_agent_script_file</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 07:35:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>835344fe376323006726ea4873990e4f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>midserverscriptfile3.servicenowscript</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+        <sys_update_name>ecc_agent_script_file_835344fe376323006726ea4873990e4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 08:30:11</sys_updated_on>
+        <use_attachment>false</use_attachment>
+        <version/>
+    </ecc_agent_script_file>
+</record_update>
