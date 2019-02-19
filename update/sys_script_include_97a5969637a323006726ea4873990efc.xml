@@ -2,17 +2,17 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_301301_test_app6.updateProductPrice2</api_name>
+        <api_name>x_301301_test_app6.insertProductPrice</api_name>
         <client_callable>false</client_callable>
         <description/>
-        <name>updateProductPrice2</name>
-        <script><![CDATA[var updateProductPrice2 = Class.create();
-updateProductPrice2.prototype = {
+        <name>insertProductPrice</name>
+        <script><![CDATA[var insertProductPrice = Class.create();
+insertProductPrice.prototype = {
     initialize: function() {
     },
 
-    update:function(data) {
-        gs.info('update product price called!');
+    insert:function(data) {
+        gs.info('insert product price called!');
         gs.info('data = ' + data);
         var product = data.product;
         var unitprice = data.unitprice;
@@ -26,24 +26,28 @@ updateProductPrice2.prototype = {
         grSales.query();
 
         if(grSales.next()){
-          grSales.unitprice = unitprice;
-          grSales.update(); 
-        }
+          //grSales.unitprice = unitprice;
+          //grSales.update(); 
+        } else {
+		  grSales.product = product;
+		  grSales.unitprice = unitprice;
+		  grSales.insert();
+		}
     },
 	
-    type: 'updateProductPrice2'
+    type: 'insertProductPrice'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-13 04:56:29</sys_created_on>
         <sys_id>97a5969637a323006726ea4873990efc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>updateProductPrice2</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>insertProductPrice</sys_name>
         <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
         <sys_update_name>sys_script_include_97a5969637a323006726ea4873990efc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-14 10:09:43</sys_updated_on>
+        <sys_updated_on>2019-02-15 05:15:18</sys_updated_on>
     </sys_script_include>
 </record_update>

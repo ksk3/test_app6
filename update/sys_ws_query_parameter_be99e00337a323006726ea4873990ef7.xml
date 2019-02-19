@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value/>
+        <name>functionname</name>
+        <required>false</required>
+        <short_description/>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 04:59:33</sys_created_on>
+        <sys_id>be99e00337a323006726ea4873990ef7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>functionname</sys_name>
+        <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_be99e00337a323006726ea4873990ef7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 04:59:33</sys_updated_on>
+        <web_service_definition display_value="scriptRestService1">2df8e00337a323006726ea4873990ee0</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>
