@@ -7,19 +7,19 @@
             <label>固定資産登録No</label>
             <language>ja</language>
             <name>x_301301_test_app6_t_nw_kikikihon2</name>
-            <plural/>
+            <plural>固定資産登録Nos</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 07:28:11</sys_created_on>
             <sys_id>3cd8aa0f373263006726ea4873990e7a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>固定資産登録No</sys_name>
             <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
             <sys_policy/>
             <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
             <sys_update_name>sys_documentation_x_301301_test_app6_t_nw_kikikihon2_koteishisan_no_ja</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-09 07:28:11</sys_updated_on>
+            <sys_updated_on>2019-03-11 10:59:41</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

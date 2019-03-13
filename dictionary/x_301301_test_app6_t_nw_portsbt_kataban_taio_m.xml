@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ネットワーク機器ポート種別・型番関連マスタ" max_length="40" name="x_301301_test_app6_t_nw_portsbt_kataban_taio_m" type="collection">
+        <element choice="1" label="型番" max_length="32" name="kataban_id" reference="x_301301_test_app6_t_nw_kikikataban_m" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" display="true" label="ポート種別" max_length="32" name="portsbt_id" reference="x_301301_test_app6_t_nw_kikiportsbt_m" type="reference">
+            <choice/>
+        </element>
+        <element label="ポート種別・型番" max_length="256" name="portsbt_kataban" type="string"/>
+        <index name="index">
+            <element name="kataban_id"/>
+        </index>
+        <index name="index2">
+            <element name="portsbt_id"/>
+        </index>
+    </element>
+</database>

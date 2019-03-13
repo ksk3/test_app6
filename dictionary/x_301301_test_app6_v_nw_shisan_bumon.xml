@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmn_department" label="V_NW_SHISAN_BUMON" max_length="40" name="x_301301_test_app6_v_nw_shisan_bumon" type="collection"/>
+</database>

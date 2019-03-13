@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="listlist" label="listlist" language="ja" table="x_301301_test_app6_sales">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>listlist</element>
+            <help/>
+            <hint/>
+            <label>listlist</label>
+            <language>ja</language>
+            <name>x_301301_test_app6_sales</name>
+            <plural>listlists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-08 07:08:54</sys_created_on>
+            <sys_id>73901571374073006726ea4873990e04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>listlist</sys_name>
+            <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+            <sys_update_name>sys_documentation_x_301301_test_app6_sales_listlist_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-08 07:08:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

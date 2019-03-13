@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="ネットワーク機器オプションスロット情報" max_length="40" name="x_301301_test_app6_x_301301_test_app6" sizeclass="3" type="collection">
+    <element extends="cmdb_ci" label="ネットワーク機器オプションスロット情報" max_length="40" name="x_301301_test_app6_x_301301_test_app6" sizeclass="14" type="collection">
         <element label="ホスト" mandatory="true" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
+        <element display="true" label="ポート種別" max_length="32" name="portsbt_id" reference="x_301301_test_app6_t_nw_portsbt_kataban_taio_m" type="reference"/>
+        <element label="スロット番号" max_length="16" name="slot_no" type="string"/>
     </element>
 </database>

@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_router" label="ネットワーク機器基本情報" max_length="40" name="x_301301_test_app6_t_nw_kikikihon2" sizeclass="15" type="collection">
+    <element audit="true" extends="cmdb_ci_router" label="ネットワーク機器基本情報" max_length="40" name="x_301301_test_app6_t_nw_kikikihon2" sizeclass="32" type="collection">
         <element label="拠点住所（その他）" max_length="128" name="address_etc" type="string"/>
         <element label="拠点住所（フロア）" max_length="64" name="address_floor" type="string"/>
-        <element default="11" label="ステータス" max_length="32" name="data_status_flg" reference="x_301301_test_app6_t_nw_status_renkei_code_m" type="reference"/>
+        <element label="備考" max_length="255" name="bikou" type="string"/>
+        <element label="Configパス" max_length="255" name="config_path" type="file_attachment"/>
+        <element default="新規(審査要)" label="ステータス" max_length="32" name="data_status_flg" reference="x_301301_test_app6_t_nw_status_renkei_code_m" type="reference"/>
         <element label="保守業者" max_length="32" name="gyousya_id" reference="x_301301_test_app6_t_nw_gyousya_m" type="reference"/>
+        <element label="資産区分" max_length="32" name="kbn_code_no" reference="x_301301_test_app6_t_nw_shisan_kbn_code_m" type="reference"/>
         <element label="機器名称" max_length="128" name="kiki_name" type="string"/>
+        <element label="機能" max_length="4000" name="kinou" reference="x_301301_test_app6_t_nw_kinou_m" type="glide_list"/>
         <element label="機種ID" mandatory="true" max_length="32" name="kisyu_id" reference="x_301301_test_app6_t_nw_kisyu_m" type="reference"/>
         <element label="固定資産登録No" max_length="48" name="koteishisan_no" type="string"/>
+        <element label="工事部署名" max_length="32" name="kouji_busyo_code" reference="x_301301_test_app6_t_nw_busyo_m" type="reference"/>
         <element label="主ネットワーク機器内部キー" max_length="32" name="main_kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" reference_qual="stack_base_kiki_flg=0^EQ" reference_qual_condition="stack_base_kiki_flg=0^EQ" type="reference"/>
         <element label="メモリ（DRAM）" max_length="32" name="memory_dram" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=3^EQ" reference_qual_condition="kiki_shiyou_knd=3^EQ" type="reference"/>
         <element label="メモリ（Flash）" max_length="8" name="memory_flash" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=4^EQ" reference_qual_condition="kiki_shiyou_knd=4^EQ" type="reference"/>
-        <element label="最新申込書番号(主)" max_length="32" name="moushikomi_no" reference="x_301301_test_app6_t_nw_moushikomi_system" reference_qual="system_kyoten_idSAMEASsystem_kyoten_id^EQ" reference_qual_condition="system_kyoten_idSAMEASsystem_kyoten_id^EQ" type="reference"/>
-        <element label="最新申込書番号(従)" max_length="32" name="moushikomi_no2" reference="x_301301_test_app6_t_nw_moushikomi_system" reference_qual="system_kyoten_idSAMEASsystem_kyoten_id^EQ" reference_qual_condition="system_kyoten_idSAMEASsystem_kyoten_id^EQ" type="reference"/>
+        <element label="最新申込書番号(主)" max_length="32" name="moushikomi_no" reference="x_301301_test_app6_t_nw_moushikomi_system" reference_qual="system_kyoten_id3SAMEASsystem_kyoten_id3^EQ" reference_qual_condition="system_kyoten_id3SAMEASsystem_kyoten_id3^EQ" type="reference"/>
+        <element label="最新申込書番号(従)" max_length="32" name="moushikomi_no2" reference="x_301301_test_app6_t_nw_moushikomi_system" reference_qual="system_kyoten_id3SAMEASsystem_kyoten_id3^EQ" reference_qual_condition="system_kyoten_id3SAMEASsystem_kyoten_id3^EQ" type="reference"/>
         <element label="OS-Features" max_length="8" name="os_features" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=2^EQ" reference_qual_condition="kiki_shiyou_knd=2^EQ" type="reference"/>
         <element label="OS-Version" max_length="8" name="os_version" reference="x_301301_test_app6_t_nw_kikishiyou_m" reference_qual="kiki_shiyou_knd=1^EQ" reference_qual_condition="kiki_shiyou_knd=1^EQ" type="reference"/>
+        <element attributes="desired_state=u_select_sv_desired" label="関連サービス情報" max_length="32" name="select_sv" reference="x_301301_test_app6_t_nw_su_m2" type="glide_list"/>
+        <element label="設置日" max_length="40" name="seti_ymd" type="glide_date"/>
         <element label="設定情報備考" max_length="255" name="settei_bikou" type="string"/>
-        <element choice="3" default="0" label="元主機器" max_length="2" name="stack_base_kiki_flg" type="integer">
+        <element label="設定仕様書パス" max_length="255" name="settei_path" type="file_attachment"/>
+        <element label="資産管理部門" max_length="32" name="shisan_kanri_bumon_code" reference="x_301301_test_app6_v_nw_shisan_bumon" type="reference"/>
+        <element choice="3" default="0" label="主機器/従機器" max_length="2" name="stack_base_kiki_flg" type="integer">
             <choice>
                 <element inactive_on_update="false" label="主機器" language="ja" value="0"/>
                 <element inactive_on_update="false" label="従機器" language="ja" value="1"/>
@@ -25,5 +34,12 @@
         <element default="0" label="スイッチ番号" max_length="2" name="stack_switch_no" type="integer"/>
         <element label="サービスコード" max_length="32" name="sv_code" reference="x_301301_test_app6_t_nw_system_sv" type="reference"/>
         <element label="システム拠点" mandatory="true" max_length="32" name="system_kyoten_id" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
+        <element choice="3" default="0" label="TA(ADSL)有無" max_length="40" name="ta_umu_flg" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="有" language="ja" value="1"/>
+                <element inactive_on_update="false" label="無" language="ja" value="0"/>
+            </choice>
+        </element>
+        <element attributes="actual_state=select_sv" label="関連サービス情報 (目的の)" max_length="32" name="u_select_sv_desired" reference="x_301301_test_app6_t_nw_su_m2" type="reference"/>
     </element>
 </database>

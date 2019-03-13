@@ -1,114 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="e6fa19f037af23006726ea4873990e7e" sys_domain="global" table="x_301301_test_app6_x_301301_test_app6" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>eb655130378033006726ea4873990eb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <text>オプションスロット情報を入力してください（ポート種別を選択時、型番も同時に選択してください）</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>ef655130378033006726ea4873990eb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <text>ホストを選択してください。</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>eb655130378033006726ea4873990eb3</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:03</sys_created_on>
-            <sys_id>8b87354637e323006726ea4873990e38</sys_id>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>a3655130378033006726ea4873990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:03</sys_updated_on>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>portsbt_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>27655130378033006726ea4873990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slot_no</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>a7655130378033006726ea4873990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>portsbt_id.kataban_id</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>2b655130378033006726ea4873990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>ab655130378033006726ea4873990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>asset_tag</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:03</sys_created_on>
-            <sys_id>0387354637e323006726ea4873990e39</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:03</sys_created_on>
-            <sys_id>8387354637e323006726ea4873990e39</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>category</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:03</sys_created_on>
-            <sys_id>0787354637e323006726ea4873990e39</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fault_count</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:03</sys_created_on>
-            <sys_id>8787354637e323006726ea4873990e39</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>install_date</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:04</sys_created_on>
-            <sys_id>0b87354637e323006726ea4873990e39</sys_id>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>2f655130378033006726ea4873990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:04</sys_updated_on>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>install_status</element>
+            <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:04</sys_created_on>
-            <sys_id>8b87354637e323006726ea4873990e39</sys_id>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>af655130378033006726ea4873990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:04</sys_updated_on>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ef655130378033006726ea4873990eb3</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>23655130378033006726ea4873990eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>kiki_key</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-12 08:06:04</sys_created_on>
-            <sys_id>0f87354637e323006726ea4873990e39</sys_id>
+            <sys_created_on>2019-03-05 04:56:00</sys_created_on>
+            <sys_id>a3655130378033006726ea4873990eb5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_301301_test_app6_x_301301_test_app6" sys_domain="global" view="Default view">e6fa19f037af23006726ea4873990e7e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-12 08:06:04</sys_updated_on>
+            <sys_updated_on>2019-03-05 04:56:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

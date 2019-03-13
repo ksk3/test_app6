@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_ip_address" label="ポートIP情報" max_length="40" name="x_301301_test_app6_t_nw_kikiip" sizeclass="11" type="collection">
+    <element audit="true" extends="cmdb_ci_ip_address" label="ポートIP情報" max_length="40" name="x_301301_test_app6_t_nw_kikiip" sizeclass="23" type="collection">
         <element label="アドレス種別" max_length="10" name="address_kbn" type="string"/>
         <element label="インターフェイス名" mandatory="true" max_length="32" name="kiki_key_renban" reference="x_301301_test_app6_dscy_switchport" type="reference"/>
     </element>

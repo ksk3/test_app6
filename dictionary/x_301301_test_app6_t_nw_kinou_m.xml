@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="機能マスタ" max_length="40" name="x_301301_test_app6_t_nw_kinou_m" type="collection">
+        <element display="true" label="機能名称" max_length="32" name="kinou_name" type="string"/>
+    </element>
+</database>

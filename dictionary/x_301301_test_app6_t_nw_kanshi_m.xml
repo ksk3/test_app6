@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="監視装置マスタ" max_length="40" name="x_301301_test_app6_t_nw_kanshi_m" type="collection">
+        <element label="監視装置ホスト名" max_length="128" name="kanshi_host_name" type="string"/>
+        <element label="監視装置IPアドレス" max_length="40" name="kanshi_ip_address" type="ip_addr"/>
+        <element display="true" label="監視装置名称" max_length="64" name="kanshi_name" type="string"/>
+        <element choice="1" label="監視装置タイプ区分" max_length="40" name="lamshi_soti_kbn" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-" language="ha" value="0"/>
+                <element inactive_on_update="false" label="ｻｰﾊﾞ監視,ﾈｯﾄﾜｰｸ性能監視" language="ja" value="2"/>
+                <element inactive_on_update="false" label="ﾈｯﾄﾜｰｸ監視" language="ja" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

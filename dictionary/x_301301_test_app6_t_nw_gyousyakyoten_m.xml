@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmn_location" label="業者拠点マスタ" max_length="40" name="x_301301_test_app6_t_nw_gyousyakyoten_m" type="collection"/>
+    <element extends="cmn_location" label="業者拠点マスタ" max_length="40" name="x_301301_test_app6_t_nw_gyousyakyoten_m" type="collection">
+        <element label="業者" max_length="32" name="gyousya_id" reference="x_301301_test_app6_t_nw_gyousya_m" type="reference"/>
+        <index name="index">
+            <element name="gyousya_id"/>
+        </index>
+    </element>
 </database>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Sales" max_length="40" name="x_301301_test_app6_sales" type="collection">
+        <element label="ccc" max_length="40" name="ccc" type="percent_complete"/>
         <element label="CustomerName" max_length="255" name="customername" type="string_full_utf8"/>
+        <element label="ddd" max_length="80" name="ddd" type="workflow"/>
+        <element label="eee" max_length="4000" name="eee" type="journal_list"/>
+        <element choice="1" label="fff" max_length="40" name="fff" type="choice">
+            <choice/>
+        </element>
+        <element label="listlist" max_length="4000" name="listlist" reference="x_301301_test_app6_t_nw_su_m2" type="glide_list"/>
+        <element label="namep" max_length="4000" name="namep" type="simple_name_values"/>
         <element label="Price" max_length="20" name="price" type="currency"/>
         <element label="Product" max_length="255" name="product" type="string_full_utf8"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>

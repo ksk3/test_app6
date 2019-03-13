@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ネットワーク機器SNMP監視装置" max_length="40" name="x_301301_test_app6_t_nw_snmpkanshisouchi" type="collection">
+        <element label="Community名" max_length="60" name="community_name" type="string"/>
+        <element label="Hostsアドレス" max_length="40" name="hosts_address" type="string"/>
+        <element label="監視装置" max_length="32" name="kanshi_code" reference="x_301301_test_app6_t_nw_kanshi_m" type="reference"/>
+        <element label="ホスト" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
+        <index name="index">
+            <element name="kanshi_code"/>
+        </index>
+        <index name="index2">
+            <element name="kiki_key"/>
+        </index>
+    </element>
+</database>

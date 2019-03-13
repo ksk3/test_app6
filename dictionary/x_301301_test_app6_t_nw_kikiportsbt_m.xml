@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ポート種別マスタ" max_length="40" name="x_301301_test_app6_t_nw_kikiportsbt_m" type="collection">
+        <element display="true" label="ポート種別" max_length="128" name="portsbt_data" type="string"/>
+    </element>
+</database>

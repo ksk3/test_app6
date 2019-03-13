@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_301301_test_app6.admin_2" name="x_301301_test_app6.admin_2">d77a27d5378033006726ea4873990e3e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 05:04:23</sys_created_on>
+        <sys_id>b18a67d5378033006726ea4873990e2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d77a27d5378033006726ea4873990e3e</sys_name>
+        <sys_package display_value="test_app6" source="x_301301_test_app6">58f7b96e372223006726ea4873990e76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app6">58f7b96e372223006726ea4873990e76</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b18a67d5378033006726ea4873990e2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 05:04:23</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

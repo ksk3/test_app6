@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb" label="機器監視保守" max_length="40" name="x_301301_test_app6_t_nw_kikikanshi2" sizeclass="7" type="collection">
-        <element label="アクセスポイント" max_length="32" name="ap" reference="x_301301_test_app6_t_nw_system_kyoten" type="reference"/>
+    <element audit="true" extends="cmdb" label="機器監視保守" max_length="40" name="x_301301_test_app6_t_nw_kikikanshi2" sizeclass="14" type="collection">
+        <element label="アクセスポイント" max_length="32" name="ap" reference="x_301301_test_app6_t_nw_system_kyoten" reference_qual="idSAMEASid^EQ" reference_qual_condition="idSAMEASid^EQ" type="reference"/>
         <element label="Ping確認フラグ" max_length="40" name="chk_by_ping_flg" type="boolean"/>
         <element label="Snmp確認フラグ" max_length="40" name="chk_by_snmp_flg" type="boolean"/>
-        <element label="業者拠点" max_length="32" name="gyousya_kyoten_id" reference="x_301301_test_app6_t_nw_gyousyakyoten_m" type="reference"/>
+        <element label="保守拠点名" max_length="32" name="gyousya_kyoten_id" reference="x_301301_test_app6_t_nw_gyousyakyoten_m" reference_qual="gyousya_idSAMEASgyousya_id^EQ" reference_qual_condition="gyousya_idSAMEASgyousya_id^EQ" type="reference"/>
         <element label="業者対応時間ID" max_length="32" name="gyousya_taiou_id" reference="x_301301_test_app6_t_nw_gyousya_taiou_m" reference_qual="gyousya_idSAMEASgyousya_id^EQ" reference_qual_condition="gyousya_idSAMEASgyousya_id^EQ" type="reference"/>
         <element label="保守会社ID" max_length="32" name="hosyu_kaisya_id" reference="x_301301_test_app6_t_nw_gyousya_m" reference_qual="hosyu_flg=1^EQ" reference_qual_condition="hosyu_flg=1^EQ" type="reference"/>
+        <element label="保守業者連絡先" max_length="20" name="hosyu_renraku" type="string"/>
+        <element label="駆付け目標時間" max_length="10" name="kaketsuke_mokuhyo_time" type="string"/>
         <element label="遠隔ログイン可否フラグ" max_length="40" name="kanshi_login_umu_flg" type="boolean"/>
         <element label="監視時間帯手入力" max_length="64" name="kanshi_taiou_etc" type="string"/>
         <element label="障害連絡時間帯" max_length="32" name="kanshi_taiou_id" reference="x_301301_test_app6_t_nw_gyousya_taiou_m" reference_qual="gyousya_id=f067b88a378f23006726ea4873990ea6^EQ" reference_qual_condition="gyousya_id=f067b88a378f23006726ea4873990ea6^EQ" type="reference"/>
         <element label="監視対象" max_length="40" name="kanshi_taisyo" type="boolean"/>
         <element label="監視有無フラグ" max_length="40" name="kanshi_umu_flg" type="boolean"/>
+        <element label="契約番号" max_length="36" name="keiyaku_no" type="string"/>
         <element label="ホスト" mandatory="true" max_length="32" name="kiki_key" reference="x_301301_test_app6_t_nw_kikikihon2" type="reference"/>
         <element choice="1" label="機器取扱区分" max_length="40" name="kiki_srv_toriatukai_kbn" type="choice">
             <choice>
@@ -23,12 +26,16 @@
             </choice>
         </element>
         <element label="設定変更有無" max_length="40" name="set_change_flg" type="boolean"/>
-        <element label="設定変更時間帯" max_length="32" name="set_change_time" reference="x_301301_test_app6_t_nw_gyousya_taiou_m" reference_qual="gyousya_id=3ce7f04a378f23006726ea4873990ee6^ORgyousya_id=7918fc4a378f23006726ea4873990e61^ORgyousya_id=dcf7fc8a378f23006726ea4873990ed1^ORgyousya_id=f067b88a378f23006726ea4873990ea6^EQ" reference_qual_condition="gyousya_id=3ce7f04a378f23006726ea4873990ee6^ORgyousya_id=7918fc4a378f23006726ea4873990e61^ORgyousya_id=dcf7fc8a378f23006726ea4873990ed1^ORgyousya_id=f067b88a378f23006726ea4873990ea6^EQ" type="reference"/>
+        <element label="設定変更時間帯" max_length="32" name="set_change_time" reference="x_301301_test_app6_t_nw_gyousya_taiou_m" reference_qual="gyousya_idSAMEASgyousya_id^EQ" reference_qual_condition="gyousya_idSAMEASgyousya_id^EQ" type="reference"/>
         <element label="SNMP監視有無フラグ" max_length="40" name="snmp_umu_flg" type="boolean"/>
+        <element choice="3" default="無し" label="スタンバイ機状態" max_length="32" name="standby_umu_jyotai" reference="x_301301_test_app6_t_nw_standbyinfo_code_m" type="reference">
+            <choice/>
+        </element>
         <element label="定期PING有無" max_length="40" name="teiki_ping_flg" type="boolean"/>
         <element label="定例会報告有無" max_length="40" name="teireikai_houkoku_flg" type="boolean"/>
         <element label="トラフィック収集有無フラグ" max_length="40" name="traffic_umu_flg" type="boolean"/>
         <element label="運用解約日" max_length="40" name="unyo_end_day" type="glide_date"/>
         <element label="運用開始日" max_length="40" name="unyo_start_day" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="String 1" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>

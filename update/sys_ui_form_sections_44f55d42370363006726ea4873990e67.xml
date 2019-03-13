@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-18 09:07:50</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-18 09:07:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>08f59d42370363006726ea4873990e6f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_301301_test_app6_t_nw_kikikanshi2" name="x_301301_test_app6_t_nw_kikikanshi2" sys_domain="global" view="Default view">44f55d42370363006726ea4873990e67</sys_ui_form>
-            <sys_ui_section caption="新規セクション" display_value="新規セクション" name="x_301301_test_app6_t_nw_kikikanshi2" sys_domain="global" view="Default view">40f55d42370363006726ea4873990e66</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-18 09:07:50</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_301301_test_app6_t_nw_kikikanshi2</name>
             <roles/>

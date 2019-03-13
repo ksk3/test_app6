@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="スタンバイ機情報コードマスタ" max_length="40" name="x_301301_test_app6_t_nw_standbyinfo_code_m" type="collection">
+        <element display="true" label="区分データ" max_length="128" name="kbn_data" type="string"/>
+    </element>
+</database>
